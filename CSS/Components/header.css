@@ -19,7 +19,7 @@ header .header__left .ola {
 header .header__left .dev {
   font-weight: bold;
   font-size: 2em;
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
 }
 
 header .header__left p {

@@ -34,7 +34,7 @@
   max-width: 47rem;
   height: auto;
   border-radius: 10px;
-  box-shadow: 1px 1px 10px 1px var(--tertiary-color-dark);
+  box-shadow: 1px 1px 10px 1px var(--secondary-color-dark);
 }
 
 .projects ul li .projects__info {
@@ -60,7 +60,7 @@
   border: 1px solid #0767d4;
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 1px 1px 10px 1px var(--tertiary-color-dark);
+  box-shadow: 1px 1px 10px 1px var(--secondary-color-dark);
   width: 12rem;
   transition: 300ms;
 }

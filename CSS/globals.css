@@ -35,14 +35,14 @@
   .secondary-title {
     font-size: 4rem;
     font-weight: 700;
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
   }
   
   .tertiary-title {
     font-size: 3.2rem;
     font-weight: 500;
     line-height: 4.5rem;
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
   }
   
   p,
@@ -60,7 +60,7 @@
   
   .btn {
     background-color: none;
-    border: 1px solid var(--tertiary-color);
+    border: 1px solid var(--secondary-color);
     text-align: center;
     
     padding: 1rem 3rem;
@@ -70,7 +70,7 @@
   }
   
   .btn.btn-primary {
-    background-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
     color: var(--black);
     font-weight: bold;
     font-size: 1.5rem;
@@ -83,7 +83,7 @@
   }
   
   .btn.btn-secondary {
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
     font-weight: bold;
     font-size: 1.5rem;
     width: 150px;
@@ -96,7 +96,7 @@
   
   .btn.btn-projects {
     margin-top: 50px;
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
   
     width: 300px;
     font-weight: bold;
@@ -107,7 +107,7 @@
   }
   
   .btn.btn-projects:hover {
-    background-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
     color: black;
   }
   
