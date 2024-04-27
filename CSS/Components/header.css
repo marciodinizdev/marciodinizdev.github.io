@@ -28,6 +28,12 @@ header .header__left p {
   max-width: 50rem;
 }
 
+header .header__right {
+  width: 72rem;
+  flex: 1;
+
+}
+
 header .header__right .header__image {
   position: relative;
   line-height: 0;
@@ -36,7 +42,7 @@ header .header__right .header__image {
 
 header .header__right .header__image .marcio {
   border-radius: 0.5rem;
-  min-width: 25rem;
+  min-width: 45rem;
   max-width: 100%;
 }
 

@@ -1,5 +1,5 @@
 .skills {
-    background-color: var(--dark-blue-weak-bg);
+    background-color: var(--primary-color-dark);
     scroll-margin-top: 15rem;
   }
   
@@ -20,7 +20,7 @@
   }
   
   .skills .skills__content ul li .image-container {
-    background-color: var(--dark-blue-bg);
+    background-color: var(--primary-color);
     padding: 2rem;
     border-radius: 50%;
     width: 7rem;
