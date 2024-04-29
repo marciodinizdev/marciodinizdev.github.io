@@ -31,19 +31,20 @@ header .header__left p {
 header .header__right {
   width: 72rem;
   flex: 1;
-
 }
 
 header .header__right .header__image {
   position: relative;
   line-height: 0;
+  top: -10rem;
+  
 }
 
 
 header .header__right .header__image .marcio {
-  border-radius: 0.5rem;
   min-width: 45rem;
   max-width: 100%;
+  
 }
 
 header .header__right .header__image .background {
@@ -59,7 +60,19 @@ header .header__right .header__image .background {
     text-align: center;
   }
 
+  header .header__left .ola {
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: -10rem;
+  }
+
   header .header__left p {
     margin: 2rem auto 4rem;
+  }
+
+  header .header__right .header__image {
+    margin: 0 auto;    
+    width: 400px;
+    margin-top: -5rem;
   }
 }
