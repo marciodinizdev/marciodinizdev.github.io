@@ -34,6 +34,7 @@
   max-width: 47rem;
   height: auto;
   border-radius: 10px;
+  border: 1px solid var(--secondary-color);;
   box-shadow: 1px 1px 10px 1px var(--secondary-color-dark);
 }
 
