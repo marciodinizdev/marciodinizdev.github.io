@@ -43,48 +43,54 @@
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.342);
 }
 
+/* Esconde o menu mobile no desktop */
 .navbar .navbar__content .navbar__mobile,
 .navbar .navbar__content .navbar__mobile .mobile__links {
   display: none;
 }
 
 @media only screen and (max-width: 768px) {
+  .navbar .navbar__content {
+    padding: 1.5rem 2rem; /* Reduz o padding para mobile */
+  }
+  
   .navbar .navbar__content .navbar__links {
-    display: none;
+    display: none; /* Esconde os links do desktop */
   }
 
+  /* Mostra apenas o link "Voltar ao início" no mobile */
   .navbar .navbar__content .navbar__mobile {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar .navbar__content .navbar__mobile img {
-    width: 3.6rem;
-    height: 3.6rem;
-    cursor: pointer;
-  }
-
-  .navbar .navbar__content .navbar__mobile.active .mobile__links {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--primary-color);
-    width: 100%;
-    position: absolute;
-    top: 98%;
-    left: 0;
-    padding: 1rem 0;
-    box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
-    z-index: 1;
-  }
-
-  .navbar .navbar__content .navbar__mobile.active .mobile__links li {
-    margin-right: 0;
-  }
-
-  .navbar .navbar__content .navbar__mobile.active .mobile__links li a {
-    padding: 1rem;
     display: block;
-    text-align: center;
   }
 
+  .navbar .navbar__content .navbar__mobile .mobile__links {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar .navbar__content .navbar__mobile .mobile__links li {
+    margin: 0;
+    display: block;
+    text-align: right; /* Alinha o link à direita */
+  }
+
+  .navbar .navbar__content .navbar__mobile .mobile__links li a {
+    padding: 0.5rem 0;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .navbar .navbar__content .navbar__mobile .mobile__links li a:hover {
+    color: var(--secondary-color);
+  }
+
+  /* Remove todas as regras relacionadas ao burguer menu */
+  .navbar .navbar__content .navbar__mobile img,
+  .navbar .navbar__content .navbar__mobile.active .mobile__links,
+  .navbar .navbar__content .navbar__mobile .material-symbols-outlined {
+    display: none !important;
+  }
 }
