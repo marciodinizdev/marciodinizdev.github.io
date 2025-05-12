@@ -29,8 +29,9 @@ header .header__left p {
 }
 
 header .header__right {
-  width: 72rem;
+  /* width: 72rem; */
   flex: 1;
+  max-width: 40rem;
 }
 
 header .header__right .header__image {
@@ -41,8 +42,10 @@ header .header__right .header__image {
 }
 
 header .header__right .header__image .marcio {
-  min-width: 45rem;
-  max-width: 100%;
+  /* min-width: 45rem; */
+  width: 100%;
+  height: auto;
+  max-width: 30rem;
   
 }
 
@@ -71,7 +74,8 @@ header .header__right .header__image .background {
 
   header .header__right .header__image {
     margin: 0 auto;    
-    width: 400px;
+    max-width: 100%;
+    min-width: 0;
     margin-top: -5rem;
   }
 }
