@@ -11,6 +11,7 @@
 .logo {
   transition: 300ms;
 }
+
 .logo:hover {
   color: var(--secondary-color);
 }
