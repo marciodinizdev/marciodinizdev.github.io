@@ -21,7 +21,6 @@ body {
 
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -131,6 +130,14 @@ p:not(:last-of-type),
   padding: 0 4rem;
   margin: 0 auto;
   margin-bottom: 26rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.mb-n8 {
+  margin-top: -8rem;
 }
 
 .mb-0 {
