@@ -1,6 +1,7 @@
 .projects {
   margin-bottom: 16rem;
   scroll-margin-top: 15rem;
+  margin-top: -10rem;
 }
 
 .projects .projects__content {

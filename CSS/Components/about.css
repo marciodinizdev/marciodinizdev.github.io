@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   gap: 4rem;
-  scroll-margin-top: 20rem;
+
   margin-top: -10rem;
 }
 

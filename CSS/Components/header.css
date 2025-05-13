@@ -37,15 +37,15 @@ header .header__right {
 header .header__right .header__image {
   position: relative;
   line-height: 0;
-  top: -10rem;
-  
+  top: -30px;
 }
 
 header .header__right .header__image .marcio {
   /* min-width: 45rem; */
+
   width: 100%;
   height: auto;
-  max-width: 30rem;
+
   
 }
 
@@ -65,7 +65,7 @@ header .header__right .header__image .background {
   header .header__left .ola {
     font-weight: bold;
     font-size: 3em;
-    margin-top: -10rem;
+    margin-top: -5rem;
   }
 
   header .header__left p {
@@ -74,7 +74,7 @@ header .header__right .header__image .background {
 
   header .header__right .header__image {
     margin: 0 auto;    
-    max-width: 100%;
+    max-width: 70%;
     min-width: 0;
     margin-top: -5rem;
   }

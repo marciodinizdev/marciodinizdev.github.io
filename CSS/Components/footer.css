@@ -1,5 +1,6 @@
 footer {
-  background-color: black;
+  background-color: var(--primary-color);
+  margin-top: -15rem;
 }
 
 footer .footer__content {
